@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/839d178ace.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-search">
+        <input class="weather-input" type="text" value="Enter City" />
+        <button class="search-btn">
+          <i class="fa-solid fa-location-arrow"></i>
+        </button>
+      </div>
+      <img class="weather-img" src="sun.png" />
+      <p class="weather-temp">22</p>
+      <p class="weather-city">Mumbai</p>
+      <div class="weather-details">
+        <div class="weather-details-humid-box">
+          <img class="weather-details-humidity-icon" src="humidity.png" />
+          <div class="weather-details-humidty">
+            <p class="details-value humid">53%</p>
+            <p class="details-text">Humidity</p>
+          </div>
+        </div>
+        <div class="weather-details-wind-box">
+          <img class="weather-details-wind-icon" src="wind.png" />
+          <div class="weather-details-wind">
+            <p class="details-value wind">5.66km/h</p>
+            <p class="details-text">Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
