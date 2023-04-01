@@ -23,7 +23,7 @@ const handleSearch = () => {
       })
       .then((data) => {
         console.log(data);
-        temp.innerText = data.main.temp + "°c";
+        temp.innerText = Math.ceil(data.main.temp) + "°c";
         city.innerText = data.name;
         humidity.innerText = data.main.humidity + " %";
         wind.innerText = data.wind.speed + " km/h";
